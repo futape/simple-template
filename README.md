@@ -21,7 +21,7 @@ $template = (new Template(
 ))
     ->addVariable('name', 'Stranger');
 
-echo $template->render()
+echo $template->render();
 /* Hello Stranger,
 
 this is an usage example of futape/simple-template.
